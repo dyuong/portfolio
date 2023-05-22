@@ -45,7 +45,7 @@ nav a {
     color: black;
 }
 
-.tb-intro {
+.abc-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@ nav a {
     font-size: 48px;
     font-weight: bold;
     padding: 5px;
-    color:#0054E6;
+    color:#2C3D5B;
 }
 
 #line2 {
@@ -66,63 +66,69 @@ nav a {
     padding: 5px;
 }
 
-.tb-img {
+.abc-img {
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
-    margin-top: 1%;
+    width: 58%;
+    margin: 2% 0%;
 }
 
-.tb-intro img {
+.abc-intro img {
     height: 400px;
 }
 
-.tb-intro button {
+.abc-intro button {
     margin-top: 2%;
     border-radius: 30px;
-    color: #0054E6;
-    border: solid 2px #0054E6;
+    background-color: white;
+    color: #2C3D5B;
+    border: solid 2px #2C3D5B;
     font-size: 24px;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 0.5% 1%;
+}
+
+.abc-intro button:hover {
+    background-color: #2C3D5B;
+    color: white;
+    border: solid 2px #2C3D5B;
 }
 
 .summary {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
-    height: 420px;
-    background-color: #4783F7;
-    color:white;
+    height: 400px;
+    background-color: #2C3D5B;
+    color: #F1F1F1;
     margin-bottom: 1%;
 }
 
-.column1  {
+.row1  {
     display: flex;
-    flex-direction: column;
-    width: 30%;
+    flex-direction: row;
+    width: 60%;
     justify-content: center;
     align-items: center;
     margin-left: 20%;
 }
 
-.column2 {
+.row2 {
     display: flex;
-    flex-direction: column;
-    width: 35%;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15%;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 20%;
 }
 
 #problem, #solution {
-    margin: 5% 2%;
+    margin: 2% 2%;
 }
 
 #myrole, #timeline, #ip {
-    margin: 4% 2%;
+    margin: 2% 2%;
 }
 
 .designprocess {
@@ -170,46 +176,30 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
-.interviews {
+.heuristic-evaluation {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     margin-top: 5%;
 }
 
-.container-graphs {
-    margin-top: 3%;
-    max-width: 1400px;
+.image-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between; 
+    margin-top: 3%;  
 }
-.graphs {
+
+.affinity-diagram, .matrix {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.graph1, .graph2, .graph3 {
-    display: flex;
-    width: 75%;
-    padding: 30px;
-    border: solid 2px #CECECE;
-    border-radius: 10px;
-    margin-top: 3%;
-}
-
-.graph1-text, .graph2-text, .graph3-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:30%;
-    margin-left: 10%;
-    font-size: 20px;
-}
-
 .define {
     display: flex;
     flex-direction: column;
@@ -222,51 +212,37 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
+}
+
+.key-insights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 .user-insights {
-    color: #862ECC;
+    width: 50%;
+    color: #2F46BE;
     font-size: 16px;
     font-weight: 500;
     padding: 30px;
-    margin-top: 2%;
-    border: solid 2px #862ECC;
-    border-radius: 10px;
-}
-
-#carouselExample {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
+    padding-bottom: 20px;
     margin-top: 3%;
-}
-
-.persona-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1%;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.previous, .next {
-    background-color: RGB(0,0,0,0);
-    border: 0px;
-    margin: 10px;
+    border: solid 2px #2F46BE;
+    border-radius: 10px;
 }
 
 .problem-statement {
-    width: 800px;
-    color: #0054E6;
+    width: 50%;
+    color: #D02626;
     font-size: 16px;
     font-weight: 500;
     padding: 30px;
     margin-top: 3%;
     border-radius: 10px;
-    border: solid 2px #0054E6;
+    border: solid 2px #D02626;
 }
 
 .ideate {
@@ -281,7 +257,32 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
+}
+
+.card-sorting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#carouselExample {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    width: 70%;
+}
+
+.previous, .next {
+    background-color: RGB(0,0,0,0);
+    border: 0px;
+    margin: 10px;
+}
+
+.sitemap {
+    margin-top: 5%;
 }
 
 .prototype {
@@ -296,24 +297,57 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
-.initial-wireframes {
+.container-prototype {
+    margin-top: 5%;
+}
+
+.col-one img {
+    margin: 3% 0%;
+}
+
+.low-fidel-mobile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-gif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif-container-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.testing {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.testing-intro {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    font-size: 24px;
-    font-weight: 600;
+    flex-direction: column;
+    width: 70%;
 }
 
 .containerFeedback {
     margin-top: 3%;
+    width: 80%;
 }
 
 .rowFeedback {
     text-align: center;
+    align-items: start;
 }
 
 .feedback-col-1 {
