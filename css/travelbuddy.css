@@ -170,21 +170,27 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
 .interviews {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     margin-top: 5%;
 }
 
-.container-graphs {
+.container-graph {
+    display:flex;
     margin-top: 3%;
-    max-width: 1400px;
+    
 }
+
+.container-graph div {
+    margin: 0% 1%;
+}
+
 .graphs {
     display: flex;
     flex-direction: column;
@@ -192,21 +198,12 @@ nav a {
     align-items: center;
 }
 
-.graph1, .graph2, .graph3 {
-    display: flex;
-    width: 75%;
-    padding: 30px;
-    border: solid 2px #CECECE;
-    border-radius: 10px;
-    margin-top: 3%;
-}
 
 .graph1-text, .graph2-text, .graph3-text {
     display: flex;
     justify-content: center;
     align-items: center;
     width:30%;
-    margin-left: 10%;
     font-size: 20px;
 }
 
@@ -222,7 +219,7 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
 .user-insights {
@@ -281,7 +278,7 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
 .prototype {
@@ -296,7 +293,7 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
 .initial-wireframes {
@@ -309,11 +306,12 @@ nav a {
 }
 
 .containerFeedback {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .rowFeedback {
     text-align: center;
+    align-items: start;
 }
 
 .feedback-col-1 {
@@ -356,7 +354,7 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 77%;
+    width: 70%;
 }
 
 .containerReflections {

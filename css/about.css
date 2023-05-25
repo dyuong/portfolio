@@ -48,22 +48,21 @@ nav a {
 
 .heroimage {
     display: flex;
-    height: 90vh;
     align-items: center;
     justify-content: center;
+    margin: 5%;
 }
 
-.heroimage p {
-    margin-bottom: 20px;
+.content {
+    display: flex;
 }
 
 .text {
-    width: 450px;
-    height: 380px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 540px;
+    padding: 4%;
     background-color: #FFEBCD;
     align-items: center;
+    font-size: 15px;
 }
 
 footer {

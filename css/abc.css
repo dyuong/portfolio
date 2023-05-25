@@ -369,28 +369,58 @@ nav a {
     width: 75%;
 }
 
-.prototype button {
+.prototype-gif {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 2%;
-    border-radius: 30px;
-    color: #0054E6;
-    border: solid 2px #0054E6;
-    font-size: 24px;
-    padding-left: 1%;
-    padding-right: 1%;
 }
 
+.mobile-gif {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 520px;
+}
+
+.desktop-gif {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 520px;
+}
+
+.testing button {
+    margin-top: 2%;
+    border-radius: 30px;
+    background-color: white;
+    color: #2C3D5B;
+    border: solid 2px #2C3D5B;
+    padding: 10px 18px;
+    font-size: 20px;
+}
+
+.testing button:hover {
+    background-color: #2C3D5B;
+    color: white;
+    border: solid 2px #2C3D5B;
+}
 .reflections {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin: 5% 0%;
+    margin-top: 7%;
+    margin-bottom: 5%;
 }
 
 .reflections-intro {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 77%;
+    width: 70%;
 }
 
 .containerReflections {

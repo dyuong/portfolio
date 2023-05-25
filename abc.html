@@ -245,14 +245,14 @@ Based off the key insights discovered, we were able to define a problem statemen
             Participants were asked to complete the same tasks that were presented in the initial round of usability testing for the current ABC website. 
         </div>
     </div>
-    <img width="70%" style="margin: 3% 0%" src="images/abc/usability-testing-plan.png">
+    <img width="60%" style="margin: 3% 0%" src="images/abc/usability-testing-plan.png">
     <div class="testing-intro">
         Overall the feedback was quite positive, with users having no difficulties completing the set tasks.  Some of the received feedback is displayed below:
     </div>
     
     <div class="container containerFeedback">
         <div class="row rowFeedback">
-            <div class="col-sm feedback-col-1">
+            <div class="col-sm feedback-col-1" style="color:green">
                 <div class="feedback-title"> Positive Comments </div>
                 <div class="feedback-text"> 
                     <ul> 
@@ -262,7 +262,7 @@ Based off the key insights discovered, we were able to define a problem statemen
                     </ul>
             </div>
             </div>
-            <div class="col-sm feedback-col-1">
+            <div class="col-sm feedback-col-1" style="color:#D02626">
                 <div class="feedback-title"> Constructive Feedback </div>
                 <div class="feedback-text"> 
                     <ul> 
@@ -276,8 +276,16 @@ Based off the key insights discovered, we were able to define a problem statemen
 
     <div class="prototype-intro" style="margin-top: 3%";>Taking the feedback into consideration, I continued to iterate and refine my design, eventuating in the final clickable prototype.  </div>
     <div class="final-prototype" style="font-size:36px; font-weight:bold; margin-top:5%">Final Clickable Prototype</div>
-    <img src="images/tb/final-prototype.gif" height="700px" style="margin-top: 3%;";>
-    <button type="button" class="btn btn-outline-primary">Try Clickable Prototype Here!</button>
+    <div class="prototype-gif">
+        <div class="mobile-gif">
+            <img src="images/abc/final-prototype-mobile.gif" height="420px" style="margin-top: 3%;";>
+            <button type="button" class="btn btn-outline-primary">Try Mobile Prototype Here!</button>
+        </div>
+        <div class="desktop-gif">
+            <img src="images/abc/final-prototype-desktop.gif" height="420px" style="margin-top: 1%;";>
+            <button type="button" class="btn btn-outline-primary">Try Desktop Prototype Here!</button>
+        </div>
+    </div>
 </section>
 
 <section class="reflections">
@@ -286,21 +294,19 @@ Based off the key insights discovered, we were able to define a problem statemen
         <div class="container containerReflections">
             <div class="row rowReflections">
                 <div class="col-sm reflections-col-1">
-                    <div class="reflection-title"> Importance of Usability Testing </div>
+                    <div class="reflection-title"> Aesthetic and Minimalist Design </div>
                     <div class="reflection-text"> 
-                        Ideally undergoing more extensive usability testing throughout the design process would have been ideal, but due to time limitations I wasn’t able to complete as much usability testing between iterations as I would have liked. 
+                        Keeping in line with Nielsen’s usability heuristics, the new design of the ABC website was kept as clean and simple as possible, with only necessary information being displayed to the user.  
                         <br><br>                        
-                        Throughout this challenge, usability testing provided key feedback which guided future iterations - it really emphasised the importance or testing with potentially real users to keep the concept and designs aligned with user needs and expectations.
+                        This was frequently commented on as a positive in the feedback of the usability tests, and reiterated the fact that keeping designs minimalist allows users to complete their desired tasks with ease, improving their overall satisfaction with the experience. 
                     </div>
                 </div>
                 <div class="col-sm reflections-col-1">
-                    <div class="reflection-title"> Expectations and Prioritisation </div>
+                    <div class="reflection-title"> Principle of Mobile-First Design </div>
                     <div class="reflection-text"> 
-                        Being a 3 week individual design challenge meant that I had to set realistic expectations of what I was going to try and achieve from the outset. 
+                        In redesigning the website, I started with the desktop device first as I was not familiar with the concept of mobile-first design prior to this project. This led to some issues when trying to make the website responsive across devices, with components not transferring across well from desktop to mobile. 
                         <br><br>                        
-                        Throughout this challenge I quickly learnt the importance of prioritising with regards to research methods, features I wanted to implement, and the overall look and feel of the high fidelity prototype. 
-                        <br><br>
-                        It also required me to think about what was really important to users, and to prioritise working on these things first. 
+                        In reflection, leading with the mobile design seems to be best practice in most cases, with it being easier to upscale across larger devices as opposed to downscaling to smaller ones.  
                     </div>
                 </div>
             </div>
@@ -319,7 +325,7 @@ Based off the key insights discovered, we were able to define a problem statemen
  </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="js/travelbuddy.js"></script>
+<script src="js/abc.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </html>
