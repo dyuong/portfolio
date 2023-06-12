@@ -144,45 +144,10 @@ nav a {
     background-color: white;
 }
 
-.giftofbread {
+
+.nurture {
     height: 600px;
-    background-color: #FFF6E0;
-    color:#3C3C3C;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.gob-container {
-    display: inline-block;
-    margin-left: 10%;
-}
-
-.giftofbread-text {
-    width: 500px;
-    margin-right: 12%;
-    float: right;
-}
-
-.giftofbread button {
-    padding: 20px 30px;
-    border-radius: 50px;
-    border: solid 2px #3C3C3C;
-    background-color: RGB(0,0,0,0);
-    color: #3C3C3C;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.giftofbread button:hover {
-    color: #FFF6E0;
-    background-color: #3C3C3C;
-}
-
-.newme {
-    height: 600px;
-    background-color: #F9E5EC;
+    background-color: #FFFCF4;
     color: #403A50;
     font-size: 20px;
     display: flex;
@@ -190,18 +155,18 @@ nav a {
     align-items: center;
 }
 
-.newme-container {
+.nurture-container {
     display: inline-block;
     margin-left: 20%;
 }
 
-.newme-text {
+.nurture-text {
     width: 500px;
     margin-right: 12%;
     float: right;
 }
 
-.newme button {
+.nurture button {
     padding: 20px 30px;
     border-radius: 50px;
     border: solid 2px #403A50;
@@ -211,8 +176,8 @@ nav a {
     margin-top: 10px;
 }
 
-.newme button:hover {
-    color: #F9E5EC;
+.nurture button:hover {
+    color: #FFFCF4;
     background-color: #403A50;
 }
 

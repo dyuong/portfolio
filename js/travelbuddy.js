@@ -1,4 +1,14 @@
 $(document).ready(function() {
+  $("#skip").on("click", function() {
+    var target = $(".final-prototype").offset().top;
+    var offset = target - (target * 0.01);
+    $("html, body").animate({
+      scrollTop: offset
+    }, 100);
+  });
+});
+
+$(document).ready(function() {
     $("#one").on("click", function() {
       var target = $(".research").offset().top;
       var offset = target - (target * 0.05);

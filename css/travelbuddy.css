@@ -79,14 +79,19 @@ nav a {
     height: 400px;
 }
 
-.tb-intro button {
+.intro-button {
     margin-top: 2%;
     border-radius: 30px;
     color: #0054E6;
     border: solid 2px #0054E6;
     font-size: 24px;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.intro-button:hover {
+    background-color: #0054E6;
+    color: white;
 }
 
 .summary {
@@ -331,16 +336,6 @@ nav a {
     text-align: start;
     margin-top: 3%;
     width: 75%;
-}
-
-.prototype button {
-    margin-top: 2%;
-    border-radius: 30px;
-    color: #0054E6;
-    border: solid 2px #0054E6;
-    font-size: 24px;
-    padding-left: 1%;
-    padding-right: 1%;
 }
 
 .reflections {

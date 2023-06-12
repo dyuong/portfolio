@@ -79,20 +79,19 @@ nav a {
     height: 400px;
 }
 
-.abc-intro button {
+.intro-button {
     margin-top: 2%;
     border-radius: 30px;
-    background-color: white;
     color: #2C3D5B;
     border: solid 2px #2C3D5B;
     font-size: 24px;
-    padding: 0.5% 1%;
+    padding: 10px 20px;
+    background-color: white;
 }
 
-.abc-intro button:hover {
+.intro-button:hover {
     background-color: #2C3D5B;
     color: white;
-    border: solid 2px #2C3D5B;
 }
 
 .summary {
