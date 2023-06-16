@@ -19,29 +19,20 @@ nav {
     justify-content: flex-end;
     align-items: center;
     border-bottom: solid 1px RGB(0,0,0,0.2);
-    padding-top: 1%;
-    padding-bottom: 1%;
     position: sticky;
-    top: 0;
     background-color: white;
     z-index: 999;
+    top: 0;
 }
 
-
-.nav {
-    all:unset;
+.menu {
     display: flex;
-    margin-right: 6%;
-    justify-content: space-around;
+    width: 20%;
+    margin-right: 3%;
 }
 
 .nav-item {
-    all:unset;
-    padding: 5%;
-    margin-right: 5px;
-    display: inline;
-    vertical-align: top;
-    margin-left: auto;
+    padding: 8% 5%;
 }
 
 nav a:hover {
@@ -57,10 +48,19 @@ nav a {
     height: calc(90vh);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.img {
-    margin-left: 15%;
+.intro-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line2b {
+    display: flex;
+    align-items: center;
 }
 
 .circle {
@@ -70,20 +70,17 @@ nav a {
     object-fit: cover;
 }
 
-.text {
-    margin-left: 5%;
-}
 
 
 
 .line1 {
-    font-weight: bold;
+    font-weight: 600;
     display: inline-block;
     font-size: 40px;
 }
 
 .line2 {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 24px;
 }
 
@@ -98,14 +95,12 @@ nav a {
 }
 
 .down {
-    position: absolute;
-    left: 50%;
-    bottom: 3%;
     transition: all 0.5s ease;
 }
 
 .down:hover {
-    transform: translate(0px,10px);
+    transform: translate(0px,8px);
+
 }
 
 .travelbuddy {
@@ -114,19 +109,27 @@ nav a {
     color: white;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .travelbuddy-container {
-    display: inline-block;
-    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.img-container {
+    display: flex;
+    width: 439px;
+    justify-content: center;
 }
 
 .travelbuddy-text {
-    width: 500px;
-    margin-right: 12%;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .tb-button {
@@ -151,19 +154,21 @@ nav a {
     color: #403A50;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .nurture-container {
-    display: inline-block;
-    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
 }
 
 .nurture-text {
-    width: 500px;
-    margin-right: 12%;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .nurture button {
@@ -181,27 +186,29 @@ nav a {
     background-color: #403A50;
 }
 
-
 .abc {
     height: 600px;
     background-color: #434C5F;
     color: white;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .abc-container {
-    display: inline-block;
-    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
 }
 
 .abc-text {
-    width: 500px;
-    margin-right: 12%;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
+
 
 .abc button {
     padding: 20px 30px;
@@ -239,120 +246,79 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-h2 {
-    font-size: 20px;
-}
 nav {
-    font-size: 14px;
+    justify-content: center;
 }
 
-.intro {
-    height: calc(90vh);
+.menu {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 5%;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.intro-container {
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.img img {
+    height:200px;
+    width: 200px;
+}
+
+.text {
+    margin-top: 2%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .line1 {
-        font-size: 20px;
+    font-size: 30px;
 }
 
 .line2 {
     font-size: 16px;
 }
 
-.travelbuddy {
+.travelbuddy, .nurture, .abc {
     height: 800px;
+}
+
+.travelbuddy-container, .nurture-container, .abc-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;   
+}
+
+.img-container {
+    width: 148px;
+}
+.img-container img {
+    height: 340px;
+}
+
+.travelbuddy-text, .abc-text, .nurture-text {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.travelbuddy-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 250px;
+.abc-container img {
+    height: 220px;
 }
-
-.travelbuddy-container {
-    margin-top: -4%;
-    margin-left: -10%;
 }
-.travelbuddy img {
-    height: 25em;
-}
-
-.giftofbread {
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-}
-
-.giftofbread-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 250px;
-}
-
-.gob-container {
-    margin-top: -4%;
-    margin-left: -10%;
-}
-.giftofbread img {
-    height: 15em;
-}
-
-.newme {
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-}
-
-.newme-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 250px;
-}
-
-.newme-container {
-    margin-top: -4%;
-    margin-left: -10%;
-}
-.newme img {
-    height: 25em;
-}
-
-.abc {
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-}
-
-.abc-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 250px;
-}
-
-.abc-container {
-    margin-top: -4%;
-    margin-left: -10%;
-}
-.abc img {
-    height: 15em;
-}
-
-}
-
