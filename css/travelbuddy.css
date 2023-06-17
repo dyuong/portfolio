@@ -89,7 +89,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    height: 420px;
+    height: 400px;
     background-color: #4783F7;
     color:white;
     margin-bottom: 1%;
@@ -118,7 +118,7 @@ nav a {
 }
 
 #myrole, #timeline, #ip {
-    margin: 4% 2%;
+    margin: 2% 2%;
 }
 
 .designprocess {
