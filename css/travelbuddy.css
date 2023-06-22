@@ -114,7 +114,7 @@ nav a {
 }
 
 #problem, #solution {
-    margin: 5% 2%;
+    margin: 4% 2%;
 }
 
 #myrole, #timeline, #ip {
@@ -223,7 +223,7 @@ nav a {
     font-size: 16px;
     font-weight: 500;
     padding: 30px;
-    margin-top: 2%;
+    margin-top: 1%;
     border: solid 2px #862ECC;
     border-radius: 10px;
 }
@@ -257,7 +257,7 @@ nav a {
     font-size: 16px;
     font-weight: 500;
     padding: 30px;
-    margin-top: 3%;
+    margin-top: 1%;
     border-radius: 10px;
     border: solid 2px #0054E6;
 }
