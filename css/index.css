@@ -6,37 +6,34 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 30px;
-}
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-bottom: solid 1px RGB(0,0,0,0.2);
-    position: sticky;
-    background-color: white;
-    z-index: 999;
-    top: 0;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top:3%;
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .menu {
     display: flex;
-    width: 20%;
-    margin-right: 3%;
+    flex-direction: row;
 }
 
 .nav-item {
-    padding: 8% 5%;
+    display: flex;
+    margin-right: 30px;
 }
 
 nav a:hover {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 nav a {
@@ -44,75 +41,51 @@ nav a {
     color: black;
 }
 
-.intro {
-    height: calc(90vh);
+.tagline {
+    display:flex;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #525252; 
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:10px;
+}
+
+.recent-work {
+    font-size: 30px;
+    margin-left: 15%;
+    margin-top: 3%;
+    color:#403A50
+}
+
+.work {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.intro-container {
-    display: flex;
-    width: 60%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.line2b {
-    display: flex;
-    align-items: center;
-}
-
-.circle {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-}
-
-
-
-
-.line1 {
-    font-weight: 600;
-    display: inline-block;
-    font-size: 36px;
-}
-
-.line2 {
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.line1:hover {
-    color: #2E7AFF;
-}
-
-
-.text div {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.down {
-    transition: all 0.5s ease;
-}
-
-.down:hover {
-    transform: translate(0px,8px);
-
-}
 
 .travelbuddy {
-    height: 600px;
-    background-color: #87AEF7;
-    color: white;
-    font-size: 20px;
+    height: 420px;
+    background-color: #E8F3FF;
+    color: #403A50;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    transition: all 0.3s ease;
 }
 
+.travelbuddy:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .travelbuddy-container {
     display: flex;
     justify-content: space-between;
@@ -122,7 +95,6 @@ nav a {
 
 .img-container {
     display: flex;
-    width: 439px;
     justify-content: center;
 }
 
@@ -132,30 +104,25 @@ nav a {
     width: 50%;
 }
 
-.tb-button {
-    padding: 20px 30px;
-    border: solid 2px white;
-    border-radius: 50px;
-    background-color: RGB(0,0,0,0);
-    color: white;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.travelbuddy button:hover {
-    color: #87AEF7;
-    background-color: white;
-}
 
 
 .nurture {
-    height: 600px;
-    background-color: #FFFCF4;
+    height: 400px;
+    background-color: #FFFBF0;
     color: #403A50;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:2%;
+    transition: all 0.3s ease;
+}
+
+.nurture:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .nurture-container {
@@ -171,36 +138,32 @@ nav a {
     width: 50%;
 }
 
-.nurture button {
-    padding: 20px 30px;
-    border-radius: 50px;
-    border: solid 2px #403A50;
-    background-color: RGB(0,0,0,0);
-    color: #403A50;
-    font-size: 20px;
-    margin-top: 10px;
-}
 
-.nurture button:hover {
-    color: #FFFCF4;
-    background-color: #403A50;
-}
 
 .abc {
-    height: 600px;
-    background-color: #434C5F;
-    color: white;
-    font-size: 20px;
+    height: 400px;
+    background-color: #E3E5EC;
+    color: #403A50;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:3%;
+    transition: all 0.3s ease;
+}
+
+.abc:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .abc-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 80%;
 }
 
 .abc-text {
@@ -209,21 +172,6 @@ nav a {
     width: 50%;
 }
 
-
-.abc button {
-    padding: 20px 30px;
-    border-radius: 50px;
-    border: solid 2px white;
-    background-color: RGB(0,0,0,0);
-    color: white;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.abc button:hover {
-    color: #434C5F;
-    background-color: white;
-}
 
 footer {
     display: flex;

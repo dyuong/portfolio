@@ -8,32 +8,50 @@ body {
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-bottom: solid 1px RGB(0,0,0,0.2);
-    position: sticky;
-    background-color: white;
-    z-index: 999;
-    top: 0;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top:3%;
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .menu {
     display: flex;
-    width: 20%;
-    margin-right: 3%;
+    flex-direction: row;
 }
 
 .nav-item {
-    padding: 8% 5%;
+    display: flex;
+    margin-right: 30px;
 }
 
-nav a:hover {
+.nav-item:hover {
     font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+}
+
+.tagline {
+    display:flex;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #525252; 
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:10px;
 }
 
 .abc-intro {
