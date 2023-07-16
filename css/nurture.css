@@ -31,8 +31,8 @@ nav {
     margin-right: 30px;
 }
 
-.nav-item:hover {
-    font-weight: bold;
+nav a:hover {
+    font-weight: 600;
 }
 
 nav a {
@@ -43,15 +43,16 @@ nav a {
 .tagline {
     display:flex;
     margin-left: 15%;
-    margin-top: 5px;
+    margin-top: 8px;
+    color: #949494
 }
 
 .horizontal-line {
     height: 1px;
+    margin-top: 5px;
     background-color: #525252; 
     margin-left: 15%;
     margin-right: 15%;
-    margin-top:10px;
 }
 
 .nurture-intro {
