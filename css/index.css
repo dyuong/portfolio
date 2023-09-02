@@ -70,7 +70,7 @@ nav a {
 
 .travelbuddy {
     height: 420px;
-    background-color: #E8F3FF;
+    background-color: #FFFBF0;
     color: #403A50;
     font-size: 16px;
     display: flex;
@@ -78,7 +78,7 @@ nav a {
     align-items: center;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top:3%;
+    margin-top:1%;
     transition: all 0.3s ease;
 }
 
@@ -90,7 +90,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 80%;
 }
 
 .img-container {
@@ -118,7 +118,7 @@ nav a {
 
 .nurture {
     height: 400px;
-    background-color: #FFFBF0;
+    background-color: #EBF2E4;
     color: #403A50;
     font-size: 16px;
     display: flex;
@@ -126,7 +126,7 @@ nav a {
     align-items: center;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top:1%;
+    margin-top:3%;
     transition: all 0.3s ease;
 }
 
@@ -292,7 +292,7 @@ nav a {
 
 .travelbuddy {
     height: 600px;
-    background-color: #E8F3FF;
+    background-color: #FFFBF0;
     color: #403A50;
     font-size: 16px;
     display: flex;
@@ -315,6 +315,10 @@ nav a {
     justify-content: space-between;
     align-items: center;
     width: 90%;
+}
+
+.fictionate-img-container img {
+    height: 200px;
 }
 
 .img-container {
@@ -345,7 +349,7 @@ nav a {
 
 .nurture {
     height: 600px;
-    background-color: #FFFBF0;
+    background-color: #EBF2E4;
     color: #403A50;
     font-size: 16px;
     display: flex;
@@ -354,7 +358,7 @@ nav a {
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top:2%;
+    margin-top:5%;
     transition: all 0.3s ease;
 }
 
