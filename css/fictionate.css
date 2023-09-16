@@ -107,8 +107,8 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    height: 360px;
-    background-color: #FFFBF0;
+    height: 380px;
+    background-color: #F5F5F5;
     color: #000000;
     margin-bottom: 1%;
     margin-top: 1%;
@@ -267,7 +267,7 @@ nav a {
     justify-content: center;
 }
 .a-i img {
-    width:50%;
+    width:30%;
 }
 
 .a-i-txt {
@@ -516,7 +516,7 @@ nav a {
 }
 
 .prototype1 img {
-    width: 25%;
+    height: 90%;
 }
 
 .prototype2 {
@@ -534,7 +534,7 @@ nav a {
 }
 
 .prototype2 img {    
-    width: 50%;
+    height: 80%;
 }
 
 .mobile-txt {
